@@ -35,9 +35,15 @@ public class Lab2Driver {
 		product prod5 = new product("Coca-Cola",2.05);
 		System.out.println(prod5);
 		
+		//Create an instance of Basket, add prod1 to Basket, set quantity to 2
+                //Use toString from Basket
+                Basket myBasket = new Basket();
+                myBasket.addToBasket(prod1, 2);
+                System.out.println(myBasket);
 		
-		
-		
+		 //add another prod1 to basket with quantity 5
+                 myBasket.addToBasket(prod1, 5);
+                 System.out.println(myBasket);
 		
 		
 		
