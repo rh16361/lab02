@@ -45,7 +45,8 @@ public class Lab2Driver {
                  myBasket.addToBasket(prod1, 5);
                  System.out.println(myBasket);
 		
-		
+		//compute the total for myBasket
+                System.out.println(myBasket.total());
 		
 		
 		
